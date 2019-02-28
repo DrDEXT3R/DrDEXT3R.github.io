@@ -2,7 +2,8 @@
 title: "About"
 permalink: /about/
 header:
-    image: "/images/architecture-ceiling-contemporary-275286.jpg"
+    image: "/images/about.png"
 ---
 
-Hello world!
+I'm a normal guy with a great dream of doing something useful for society. 
+
