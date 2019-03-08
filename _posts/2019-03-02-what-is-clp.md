@@ -4,9 +4,9 @@ date: 2019-03-02
 tages: [CLP, Java, constraints]
 header:
     image: "/images/CLP/what-is-clp.png"
-    teaser: /images/CLP/what-is-clp.png
-    og_image: /images/CLP/what-is-clp.png
-excerpt: "CLP (Constraint Logic Programming) is a form of constraint programming, which is a kind of a declarative approach."
+    teaser: "/images/CLP/what-is-clp-teaser.png"
+    og_image: "/images/CLP/what-is-clp-teaser.png"
+excerpt: "CLP (Constraint Logic Programming) is a form of constraint programming, which is a kind of a declarative approach. The main goal of CLP is to find solutions that will satisfy (all) imposed constraints."
 mathjax: "true"
 ---
 
