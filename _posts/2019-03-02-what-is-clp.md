@@ -1,7 +1,11 @@
 ---
 title: "What is CLP?"
 date: 2019-03-02
-tages: [CLP, Java, constraints]
+categories:
+    - Java
+tags:
+    - CLP
+    - constraints
 header:
     image: "/images/what-is-clp/what-is-clp.png"
     teaser: "/images/what-is-clp/what-is-clp-teaser.png"

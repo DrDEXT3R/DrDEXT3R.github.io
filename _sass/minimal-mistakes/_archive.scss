@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  margin-bottom: 3em;
 }
 
 .archive__subtitle {
@@ -36,7 +37,9 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  margin-top: 0.25em;
   font-family: $sans-serif-narrow;
+  color: black;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;

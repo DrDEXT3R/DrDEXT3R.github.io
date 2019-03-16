@@ -1,7 +1,13 @@
 ---
 title: "Einstein's Riddle"
 date: 2019-03-14
-tages: [CLP, Java, einstein, riddle, puzzle]
+categories:
+    - Java
+tags:
+    - CLP
+    - Einstein
+    - riddle
+    - puzzle
 header:
     image: "/images/einstein-riddle/albert-einstein.png"
     teaser: "/images/einstein-riddle/albert-einstein-teaser.png"
@@ -128,4 +134,4 @@ Returning to the main question, let's find out about it by launching the program
 <div style="text-align: center;">
     <img alt="result" src="/images/einstein-riddle/result.png">
 </div>
-**The owner of the fish is German**. We can also see that the time it takes to find the right answer is $$ 10178915ns=0,01s $$. In case of problems, the entire program can be found <a href="https://www93.zippyshare.com/v/Eni3nVnM/file.html" target="_blank">here</a>. Did you manage to be faster than your computer?
+**The owner of the fish is German**. We can also see that the time it takes to find the right answer was $$ 10178915ns=0,01s $$. In case of problems, the entire program can be found <a href="https://www93.zippyshare.com/v/Eni3nVnM/file.html" target="_blank">here</a>. Did you manage to be faster than your computer?
