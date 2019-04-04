@@ -5,9 +5,6 @@ categories:
     - Java
 tags:
     - CLP
-    - Einstein
-    - riddle
-    - puzzle
 header:
     image: "/images/einstein-riddle/albert-einstein.png"
     teaser: "/images/einstein-riddle/albert-einstein-teaser.png"

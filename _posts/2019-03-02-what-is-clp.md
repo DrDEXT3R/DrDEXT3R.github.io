@@ -5,7 +5,6 @@ categories:
     - Java
 tags:
     - CLP
-    - constraints
 header:
     image: "/images/what-is-clp/what-is-clp.png"
     teaser: "/images/what-is-clp/what-is-clp-teaser.png"
