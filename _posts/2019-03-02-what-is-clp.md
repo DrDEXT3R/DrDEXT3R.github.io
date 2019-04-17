@@ -121,4 +121,4 @@ label.printAllSolutions();
 </div>
 
 ## Summary
-In conclusion, I hope that I have explained well what CLP is and I showed it is not so difficult. More advanced examples show its strength and become practically unfeasible for humans. In case of any problems, you can post comments below. In turn, the entire program can be found <a href="https://www83.zippyshare.com/v/aDY7fH3L/file.html" target="_blank">here</a>.
+In conclusion, I hope that I have explained well what CLP is and I showed it is not so difficult. More advanced examples show its strength and become practically unfeasible for humans. In case of any problems, you can post comments below. In turn, the entire program can be found <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/programs/CLP" target="_blank">here</a>.

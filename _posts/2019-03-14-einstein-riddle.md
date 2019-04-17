@@ -39,7 +39,7 @@ Now you can try to **solve this task yourself**. Just in case, similar puzzles c
 
 
 ## CLP strength
-If you do not know what *Constraint Logic Programming* is yet, I invite you to read my previous <a href="/what-is-clp/" target="_blank">post</a>. The main task will be to transform all assumptions into equations and inequalities. The other elements will be similar to the previous example.
+If you do not know what *Constraint Logic Programming* is yet, I invite you to read my previous <a href="/java/what-is-clp/" target="_blank">post</a>. The main task will be to transform all assumptions into equations and inequalities. The other elements will be similar to the previous example.
 
 Let's start by collecting and segregating all the names appearing in the riddle. One way is to create several enums that will illustrate our problem more.
 
@@ -131,4 +131,4 @@ Returning to the main question, let's find out about it by launching the program
 <div style="text-align: center;">
     <img alt="result" src="/images/einstein-riddle/result.png">
 </div>
-**The owner of the fish is German**. We can also see that the time it takes to find the right answer was $$ 10178915ns=0,01s $$. In case of problems, the entire program can be found <a href="https://www93.zippyshare.com/v/Eni3nVnM/file.html" target="_blank">here</a>. Did you manage to be faster than your computer?
+**The owner of the fish is German**. We can also see that the time it takes to find the right answer was $$ 10178915ns=0,01s $$. In case of problems, the entire program can be found <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/programs/Einstein" target="_blank">here</a>. Did you manage to be faster than your computer?
