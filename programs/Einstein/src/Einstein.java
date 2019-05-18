@@ -56,12 +56,12 @@ public class Einstein {
         store.impose(new XeqY( nation[Nation.ENGLISHMAN.ordinal()], color[Color.RED.ordinal()] ));                  // 1
         store.impose(new XeqY( nation[Nation.SWEDE.ordinal()], pet[Pet.DOGS.ordinal()] ));                          // 2
         store.impose(new XeqY( nation[Nation.DANE.ordinal()], drink[Drink.TEA.ordinal()] ));                        // 3
-        store.impose(new XplusCeqZ( color[Color.GREEN.ordinal()], 1, color[Color.WHITE.ordinal()] ));            // 4
+        store.impose(new XplusCeqZ( color[Color.GREEN.ordinal()], 1, color[Color.WHITE.ordinal()] ));               // 4
         store.impose(new XeqY( color[Color.GREEN.ordinal()], drink[Drink.COFFEE.ordinal()] ));                      // 5
         store.impose(new XeqY( cigarette[Cigarette.PALLMALL.ordinal()], pet[Pet.BIRDS.ordinal()] ));                // 6
         store.impose(new XeqY( color[Color.YELLOW.ordinal()], cigarette[Cigarette.DUNHILL.ordinal()] ));            // 7
-        store.impose(new XeqC( drink[Drink.MILK.ordinal()], 3 ));                                                // 8
-        store.impose(new XeqC( nation[Nation.NORWEGIAN.ordinal()], 1 ));                                         // 9
+        store.impose(new XeqC( drink[Drink.MILK.ordinal()], 3 ));                                                   // 8
+        store.impose(new XeqC( nation[Nation.NORWEGIAN.ordinal()], 1 ));                                            // 9
         store.impose(new Distance( cigarette[Cigarette.BLEND.ordinal()], pet[Pet.CATS.ordinal()], DIST_1 ));        // 10
         store.impose(new Distance( cigarette[Cigarette.DUNHILL.ordinal()], pet[Pet.HORSES.ordinal()], DIST_1 ));    // 11
         store.impose(new XeqY( cigarette[Cigarette.BLUEMASTER.ordinal()], drink[Drink.BEER.ordinal()] ));           // 12

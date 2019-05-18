@@ -26,7 +26,6 @@ public class CLP {
         store.impose(new XplusYeqC(vars[0],vars[1],9));
 
         // Search only one solution - first one
-
         Search label = new DepthFirstSearch();
         SelectChoicePoint select = new InputOrderSelect(store, vars, new IndomainMin());
         label.labeling(store, select);
@@ -46,8 +45,8 @@ public class CLP {
         SelectChoicePoint select = new InputOrderSelect(store, vars, new IndomainMin());
         label.getSolutionListener().recordSolutions(true);
         label.labeling(store, select);
-        label.printAllSolutions();*/
-
+        label.printAllSolutions();
+        */
     }
 
 }
