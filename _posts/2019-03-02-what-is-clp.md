@@ -36,7 +36,7 @@ $$ e.g. $$ &emsp; $$ A < 2 $$ &emsp;&emsp; $$ 3A + 2B = 10 $$
 
 <span style="text-decoration:underline">Attention!</span> The order of applying further constraints can change the solution. This is due to the algorithms used. <br/>
 
-## Simple example 
+## Simple Example 
 
 We have two sets: <br/>
 $$ A = { 4, 5, 6, 7, 8, 9, 10 } $$<br/>
@@ -57,7 +57,7 @@ CLP can be used to solve problems such as:
 * Knapsack problem;
 * Scheduling.
 
-## How to start
+## How to Start
 Let's face facts, Java is one of the most popular programming languages. For this reason, it also has many libraries. The one that is meant for CLP is called **JaCoP** (<a href="https://osolpro.atlassian.net/wiki/spaces/JACOP/pages/24248331/JaCoP+Download" target="_blank">download</a>). You can find the user's guide <a href="http://jacopguide.osolpro.com/guideJaCoP.html" target="_blank">here</a>.
 
 After downloading the library, we **must attach it** to our project and **paste the following lines of code**:

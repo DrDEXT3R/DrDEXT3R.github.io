@@ -15,7 +15,7 @@ mathjax: "true"
 
 Each of us knows that Albert Einstein was a great genius. His person had a huge impact on the development of physics, but have you ever heard of his riddle? If not then, I will explain it to you now.
 
-## Try to solve it
+## Try to Solve It
 There are **five houses in five different colors**. Each house is occupied by a man of different nationality. Each man has a different pet, prefers a different drink, and smokes different brand of cigarettes. The question is: ***who owns the fish?*** <br/><br/>
 There are the following hints:
 1. The Brit lives in the Red house.
@@ -38,24 +38,24 @@ There are the following hints:
 Now you can try to **solve this task yourself**. Just in case, similar puzzles can be found <a href="http://brainden.com/einsteins-riddles.htm" target="_blank">here</a>.
 
 
-## CLP strength
+## CLP Strength
 If you do not know what *Constraint Logic Programming* is yet, I invite you to read my previous <a href="/java/what-is-clp/" target="_blank">post</a>. The main task will be to transform all assumptions into equations and inequalities. The other elements will be similar to the previous example.
 
 Let's start by collecting and segregating all the names appearing in the riddle. One way is to create several enums that will illustrate our problem more.
 
 ```java
-enum Pet { DOGS , BIRDS, HORSES, CATS, FISH; }
-enum Drink { TEA, COFFEE, MILK, BEER, WATER; }
-enum Color { RED, GREEN, WHITE, YELLOW, BLUE; }
-enum Nation { ENGLISHMAN, SWEDE, DANE, NORWEGIAN, GERMAN; }
-enum Cigarette { PALLMALL, DUNHILL, BLUEMASTER, PRINCE, BLEND; }
-enum OrderOfCategories { COLOR, NATION, PET, DRINK, CIGARETTE; }
+enum Pet { DOGS , BIRDS, HORSES, CATS, FISH }
+enum Drink { TEA, COFFEE, MILK, BEER, WATER }
+enum Color { RED, GREEN, WHITE, YELLOW, BLUE }
+enum Nation { ENGLISHMAN, SWEDE, DANE, NORWEGIAN, GERMAN }
+enum Cigarette { PALLMALL, DUNHILL, BLUEMASTER, PRINCE, BLEND }
+enum OrderOfCategories { COLOR, NATION, PET, DRINK, CIGARETTE }
 ```
 
 After that, we can make a special place for our variables and define constants: *SIZE* and *DIST_1* (described below). 
 ```java
-Store store = new Store();  // Store for CLP variables
-ArrayList<IntVar> vars = new ArrayList<IntVar>(); // ArrayList of CLP variables
+Store store = new Store(); // Store for CLP variables
+ArrayList<IntVar> vars = new ArrayList<IntVar>(); // ArrayList of CLP variables to store all sets
 
 final int SIZE = 5;
 final IntVar DIST_1 = new IntVar(store, 1, 1);
@@ -126,7 +126,7 @@ long T2 = System.nanoTime();
 System.out.println("Time: " + Long.toString(T2-T1) + "ns");
 ```
 
-## So who owns the fish? 
+## So Who Owns the Fish? 
 Returning to the main question, let's find out about it by launching the program.
 <div style="text-align: center;">
     <img alt="result" src="/images/einstein-riddle/result.png">

@@ -10,18 +10,18 @@ import org.jacop.search.*;
  */
 public class Einstein {
 
-    enum Pet { DOGS , BIRDS, HORSES, CATS, FISH; }
-    enum Drink { TEA, COFFEE, MILK, BEER, WATER; }
-    enum Color { RED, GREEN, WHITE, YELLOW, BLUE; }
-    enum Nation { ENGLISHMAN, SWEDE, DANE, NORWEGIAN, GERMAN; }
-    enum Cigarette { PALLMALL, DUNHILL, BLUEMASTER, PRINCE, BLEND; }
-    enum OrderOfCategories { COLOR, NATION, PET, DRINK, CIGARETTE; }
+    enum Pet { DOGS , BIRDS, HORSES, CATS, FISH }
+    enum Drink { TEA, COFFEE, MILK, BEER, WATER }
+    enum Color { RED, GREEN, WHITE, YELLOW, BLUE }
+    enum Nation { ENGLISHMAN, SWEDE, DANE, NORWEGIAN, GERMAN }
+    enum Cigarette { PALLMALL, DUNHILL, BLUEMASTER, PRINCE, BLEND }
+    enum OrderOfCategories { COLOR, NATION, PET, DRINK, CIGARETTE }
 
 
     public static void main(String[] args) {
 
-        Store store = new Store();  // Store for CLP variables
-        ArrayList<IntVar> vars = new ArrayList<IntVar>(); // ArrayList of CLP variables
+        Store store = new Store(); // Store for CLP variables
+        ArrayList<IntVar> vars = new ArrayList<IntVar>(); // ArrayList of CLP variables to store all sets
 
         final int SIZE = 5;
         final IntVar DIST_1 = new IntVar(store, 1, 1);
