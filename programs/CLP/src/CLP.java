@@ -3,7 +3,7 @@ import org.jacop.constraints.*;
 import org.jacop.search.*;
 
 /**
- * Class  for CLP problems.
+ * The class for CLP problems.
  *
  * @author Tomasz Strzoda
  */

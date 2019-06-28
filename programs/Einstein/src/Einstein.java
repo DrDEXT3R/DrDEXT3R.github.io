@@ -4,7 +4,7 @@ import org.jacop.constraints.*;
 import org.jacop.search.*;
 
 /**
- * Class for solving Einstein's Riddle.
+ * The class for solving Einstein's Riddle.
  *
  * @author Tomasz Strzoda
  */
