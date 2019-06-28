@@ -1,5 +1,5 @@
 ---
-title: "Scheduling Problem"
+title: "CLP #3: Scheduling Problem"
 date: 2019-05-31
 categories:
     - Java

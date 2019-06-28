@@ -1,5 +1,5 @@
 ---
-title: "Einstein's Riddle"
+title: "CLP #2: Einstein's Riddle"
 date: 2019-03-14
 categories:
     - Java
