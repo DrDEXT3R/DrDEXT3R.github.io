@@ -252,11 +252,11 @@ long T2 = System.nanoTime();
 System.out.println("Time: " + Long.toString(T2-T1) + "ns");
 ```
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/result.png">
+    <img alt="result" src="/images/scheduling-problem/result-console.png">
 </div> 
 The solution to the problem was returned in the order of our reference point (drawings → paintings → sculptures → photographs). Turning minutes into hours and remembering that the museum is open from 10:00 to 15:00, we get:
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/result-as-array.png">
+    <img alt="result" src="/images/scheduling-problem/result-array.png">
 </div> 
 In addition, this result can be displayed on the chart using the <a href="http://www.jfree.org/jfreechart/" target="_blank">JFreeChart</a> library:  
 
