@@ -9,7 +9,7 @@ header:
     image: "/images/einstein-riddle/albert-einstein.png"
     teaser: "/images/einstein-riddle/albert-einstein-teaser.png"
     og_image: "/images/einstein-riddle/albert-einstein-teaser.png"
-excerpt: "Each of us knows that Albert Einstein was a great genius. His person had a huge impact on the development of physics, but have you ever heard of his riddle?"
+excerpt: "Each of us knows that Albert Einstein was a great genius. His person had a huge impact on the development of physics, but have you ever heard of his riddle? If not then, I will explain it to you now."
 mathjax: "true"
 ---
 
