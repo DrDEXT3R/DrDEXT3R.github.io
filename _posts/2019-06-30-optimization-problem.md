@@ -6,9 +6,9 @@ categories:
 tags:
     - CLP
 header:
-    image: "/images/optimization-problem/optimization.jpg"
-    teaser: "/images/optimization-problem/optimization-teaser.jpg"
-    og_image: "/images/optimization-problem/optimization-teaser.jpg"
+    image: "/assets/images/blog/optimization-problem/optimization.jpg"
+    teaser: "/assets/images/blog/optimization-problem/optimization-teaser.jpg"
+    og_image: "/assets/images/blog/optimization-problem/optimization-teaser.jpg"
 excerpt: "Optimization plays a very important role in our lives. I think none of us likes to waste time unnecessarily. That's why we think so often how to sort tasks and activities during the day. And if so, try to use CLP?"
 ---
 
@@ -17,7 +17,7 @@ Optimization plays a very important role in our lives. I think none of us likes 
 ## The Task
 Assigning colors to regions of a map in such a way that no adjacent regions are assigned the same color, **while minimizing the number of used colors**.
 <div style="text-align: center;">
-    <img alt="result" src="/images/optimization-problem/map-template.png">
+    <img alt="result" src="/assets/images/blog/optimization-problem/map-template.png">
 </div>
 
 ## Lines of Code
@@ -44,7 +44,7 @@ Now we need to inform the computer about all regions that can not have the same 
 
 
 <div style="text-align: center;">
-    <img alt="result" src="/images/optimization-problem/groups.png">
+    <img alt="result" src="/assets/images/blog/optimization-problem/groups.png">
 </div>
 
 For this purpose, we will store the entire group in the IntVar array, which we then give as the **Alldifferent()** parameter. This type of constraint enforces assignment of different values to all variables in the given list. It removes assigned value from the domains of other variables. Remember that our array is IntVar type, that's why we have to store such elements in it. Thus **regions[0] will represent A, regions[1] → B, ..., regions[5] → F**.
@@ -84,13 +84,13 @@ long T2 = System.nanoTime();
 System.out.println("Time: " + Long.toString(T2-T1) + "ns");
 ```
 <div style="text-align: center;">
-    <img alt="result" src="/images/optimization-problem/result.png">
+    <img alt="result" src="/assets/images/blog/optimization-problem/result.png">
 </div>
 
 As you can see, **4 colors were used**. For a better illustration, let's assume that 1 is blue, 2 → green, 3 → red, 4 → yellow.
 
 <div style="text-align: center;">
-    <img alt="result" src="/images/optimization-problem/map-solved.png">
+    <img alt="result" src="/assets/images/blog/optimization-problem/map-solved.png">
 </div>
 
 No two neighboring regions have the same color, i.e. **the goal has been achieved**.
@@ -98,8 +98,8 @@ No two neighboring regions have the same color, i.e. **the goal has been achieve
 ## Homework
 This type of task has been limited to a specific example - the map shown at the beginning of the article. **Nothing prevents you to devise with such a map yourself**. The only limit is your creativity. If there are no ideas, I prepared two more cases for those interested.
 <div style="text-align: center;">
-    <img alt="result" src="/images/optimization-problem/examples.png">
+    <img alt="result" src="/assets/images/blog/optimization-problem/examples.png">
 </div>
 
 ## Summary
-This is how the next use of *Constraint Logic Programming* is shown. I encourage you to **solve this problem yourself**, and if necessary, you can see the entire program code <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/programs/MapColoring" target="_blank">here</a>. As a curiosity, I will also say that **for each devised map, the maximum number of colors is 4**. This is due to the *"Four Color Theorem"*, about which you can read more on the <a href="https://en.wikipedia.org/wiki/Four_color_theorem" target="_blank">Internet</a>.
+This is how the next use of *Constraint Logic Programming* is shown. I encourage you to **solve this problem yourself**, and if necessary, you can see the entire program code <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/MapColoring" target="_blank">here</a>. As a curiosity, I will also say that **for each devised map, the maximum number of colors is 4**. This is due to the *"Four Color Theorem"*, about which you can read more on the <a href="https://en.wikipedia.org/wiki/Four_color_theorem" target="_blank">Internet</a>.

@@ -6,9 +6,9 @@ categories:
 tags:
     - CLP
 header:
-    image: "/images/einstein-riddle/albert-einstein.png"
-    teaser: "/images/einstein-riddle/albert-einstein-teaser.png"
-    og_image: "/images/einstein-riddle/albert-einstein-teaser.png"
+    image: "/assets/images/blog/einstein-riddle/albert-einstein.png"
+    teaser: "/assets/images/blog/einstein-riddle/albert-einstein-teaser.png"
+    og_image: "/assets/images/blog/einstein-riddle/albert-einstein-teaser.png"
 excerpt: "Each of us knows that Albert Einstein was a great genius. His person had a huge impact on the development of physics, but have you ever heard of his riddle? If not then, I will explain it to you now."
 mathjax: "true"
 ---
@@ -129,6 +129,6 @@ System.out.println("Time: " + Long.toString(T2-T1) + "ns");
 ## So Who Owns the Fish? 
 Returning to the main question, let's find out about it by launching the program.
 <div style="text-align: center;">
-    <img alt="result" src="/images/einstein-riddle/result.png">
+    <img alt="result" src="/assets/images/blog/einstein-riddle/result.png">
 </div>
-**The owner of the fish is German**. We can also see that the time it takes to find the right answer was $$ 10178915ns=0,01s $$. In case of problems, the entire program can be found <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/programs/Einstein" target="_blank">here</a>. Did you manage to be faster than your computer?
+**The owner of the fish is German**. We can also see that the time it takes to find the right answer was $$ 10178915ns=0,01s $$. In case of problems, the entire program can be found <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/Einstein" target="_blank">here</a>. Did you manage to be faster than your computer?

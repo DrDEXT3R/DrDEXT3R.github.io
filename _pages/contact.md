@@ -1,8 +1,9 @@
 ---
 title: "Contact"
 permalink: /contact/
+browser_title: Contact \| IT looks so easy
 header:
-    image: "/images/contact.jpg"
+    image: "/assets/images/contact/contact.jpg"
 ---
 
 If you want to send me feedback or just contact me, you can do it here.

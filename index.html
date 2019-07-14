@@ -1,6 +1,31 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+browser_title: IT looks so easy
 header:
-    image: "/images/home.png"
+    image: "/assets/images/home.png"
+feature_row:
+  - image_path: "/assets/images/about-teaser.jpg"
+    alt: "About"
+    title: "About"
+    excerpt: "A few words describing my person: what is my function in life, why blog."
+    url: "/about"
+    btn_label: "Read"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/portfolio-teaser.jpg"
+    alt: "Portfolio"
+    title: "Portfolio"
+    excerpt: "Projects, programs, in general everything I would like to boast about."
+    url: "/portfolio"
+    btn_label: "View"
+    btn_class: "btn--primary"
+  - image_path: "/assets/images/blog-teaser.jpg"
+    alt: "Blog"
+    title: "Blog"
+    excerpt: "A description of my adventures and experiences related to the IT industry."
+    url: "/blog"
+    btn_label: "Read"
+    btn_class: "btn--primary"
 ---
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}

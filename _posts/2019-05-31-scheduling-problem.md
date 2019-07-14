@@ -6,9 +6,9 @@ categories:
 tags:
     - CLP
 header:
-    image: "/images/scheduling-problem/museum.jpg"
-    teaser: "/images/scheduling-problem/museum-teaser.jpg"
-    og_image: "/images/scheduling-problem/museum-teaser.jpg"
+    image: "/assets/images/blog/scheduling-problem/museum.jpg"
+    teaser: "/assets/images/blog/scheduling-problem/museum-teaser.jpg"
+    og_image: "/assets/images/blog/scheduling-problem/museum-teaser.jpg"
 excerpt: "Many times we face the problem of scheduling throughout our lives. Sometimes it is quite troublesome and cumbersome. In such situations, you can use CLP, which in this case, significantly shortens the time of finding the final solution and saves many unnecessary nerves."
 mathjax: "true"
 ---
@@ -47,7 +47,7 @@ ArrayList<IntVar> vars = new ArrayList<IntVar>(); // ArrayList of CLP variables 
 
 We’ll also create several IntVar arrays for each nationality. In the loop, for each index of each array, we can define the domain (possible value obtained) and add this element to the ArrayList. The domain is nothing other than the possible time of visiting a given nationality in the museum. Remember that **we have not informed the computer about the museum's working hours so far**. From the point of view of finding solutions, it is not necessary. Let's just assume that 0 min means the opening hour (10:00 AM) and 300 min (3:00 PM) the closing hour of the building.
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/times.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/times.png">
 </div>
 
 ```java
@@ -73,7 +73,7 @@ for (int i = 0; i < SIZE; i++) {
 
 Now is the time to determine how long each nationality will be visiting a given exhibition. The whole will be included in one common array, in which each row will correspond to one exhibition.
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/durations.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/durations.png">
 </div>
 
 ```java
@@ -124,12 +124,12 @@ $$\forall t \in [\min_{1 \leq i \leq n}(T_{i}), \max_{1 \leq i \leq n}(T_{i}+D_{
 <span style="text-decoration:underline">Simple example:</span>  
 We have 3 tasks on 2 processors. Each task requires one of them.
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/cumulativeExample.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/cumulativeExample.png">
 </div>
   
 <span style="text-decoration:underline">Exemplary solution:</span>  
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/chart.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/chart.png">
 </div>
 
 After this short explanation, we can back to our program. The first thing we will do is create a variable named "one". It will help us to create an array of resources (because every nationality needs one exhibition at a time) and non-extendible value - the limit. The "startTimes" array will specify the start times of the tasks, i.e. the domain of times in which exhibitions can be assigned. After imposing cumulative constraint, we repeat it.
@@ -252,15 +252,15 @@ long T2 = System.nanoTime();
 System.out.println("Time: " + Long.toString(T2-T1) + "ns");
 ```
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/result-console.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/result-console.png">
 </div> 
 The solution to the problem was returned in the order of our reference point (drawings → paintings → sculptures → photographs). Turning minutes into hours and remembering that the museum is open from 10:00 to 15:00, we get:
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/result-array.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/result-array.png">
 </div> 
 In addition, this result can be displayed on the chart using the <a href="http://www.jfree.org/jfreechart/" target="_blank">JFreeChart</a> library:  
 
 <div style="text-align: center;">
-    <img alt="result" src="/images/scheduling-problem/result-as-chart.png">
+    <img alt="result" src="/assets/images/blog/scheduling-problem/result-as-chart.png">
 </div> 
-**The way of showing the solution is not as important as solving the problem.** The computer did it very quickly. I hope that this example showed once again the good use of *Constraint Logic Programming*. I encourage you to solve it yourself, in case of any ambiguity, the whole code is <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/programs/Museum" target="_blank">here</a>.
+**The way of showing the solution is not as important as solving the problem.** The computer did it very quickly. I hope that this example showed once again the good use of *Constraint Logic Programming*. I encourage you to solve it yourself, in case of any ambiguity, the whole code is <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/Museum" target="_blank">here</a>.

@@ -6,9 +6,9 @@ categories:
 tags:
     - JavaFX
 header:
-    image: "/images/your-javafx-app-on-jdk-11-&-openjfx/main-image.png"
-    teaser: "/images/your-javafx-app-on-jdk-11-&-openjfx/main-image-teaser.png"
-    og_image: "/images/your-javafx-app-on-jdk-11-&-openjfx/main-image-teaser.png"
+    image: "/assets/images/blog/your-javafx-app-on-jdk-11-&-openjfx/main-image.png"
+    teaser: "/assets/images/blog/your-javafx-app-on-jdk-11-&-openjfx/main-image-teaser.png"
+    og_image: "/assets/images/blog/your-javafx-app-on-jdk-11-&-openjfx/main-image-teaser.png"
 excerpt: "With the advent of Java 11, there were several key changes. One of them is the disconnection of JavaFX from JDK. JavaFX is a technology for creating a graphical user interface that was created as a replacement for Swing and AWT. From Java 8 this is the recommended library for creating a GUI."
 ---
 
@@ -34,7 +34,7 @@ Another significant change is the release of **two versions of Java**:
 8.	Open *"Command Prompt"* and enter *"java -version"*  
 You should see something like that:
 <div style="text-align: center;">
-    <img alt="result" src="/images/your-javafx-app-on-jdk-11-&-openjfx/cmd.png">
+    <img alt="result" src="/assets/images/blog/your-javafx-app-on-jdk-11-&-openjfx/cmd.png">
 </div>
 
 

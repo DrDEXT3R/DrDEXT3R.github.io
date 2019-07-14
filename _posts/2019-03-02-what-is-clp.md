@@ -6,9 +6,9 @@ categories:
 tags:
     - CLP
 header:
-    image: "/images/what-is-clp/what-is-clp.png"
-    teaser: "/images/what-is-clp/what-is-clp-teaser.png"
-    og_image: "/images/what-is-clp/what-is-clp-teaser.png"
+    image: "/assets/images/blog/what-is-clp/what-is-clp.png"
+    teaser: "/assets/images/blog/what-is-clp/what-is-clp-teaser.png"
+    og_image: "/assets/images/blog/what-is-clp/what-is-clp-teaser.png"
 excerpt: "CLP (Constraint Logic Programming) is a form of constraint programming, which is a kind of a declarative approach. The main goal of CLP is to find solutions that will satisfy (all) imposed constraints."
 mathjax: "true"
 ---
@@ -92,7 +92,7 @@ Note that the representation of our set $$ A $$ will be **vars[0]**, and the set
 ***XgtY*** means $$ X>Y $$ (gt - greater than) and ***XplusYeqC*** means $$ X+Y=Const $$ (eq - equal). You can find the whole list in the <a href="http://jacopguide.osolpro.com/guideJaCoP.html" target="_blank">user's guide</a>.
 <br/>
 <div style="text-align: center;">
-    <img alt="result" src="/images/what-is-clp/constraints.png">
+    <img alt="result" src="/assets/images/blog/what-is-clp/constraints.png">
 </div>
 <br/>
 Now we can **look for a solution**. We do this by adding the following lines to our program:
@@ -104,7 +104,7 @@ label.labeling(store, select);
 Without going into details, we define here how we want to find a solution. As we know, there are 2 possible solutions in our example. However, the program result returns only one. 
 
 <div style="text-align: center;">
-    <img alt="result" src="/images/what-is-clp/result.png">
+    <img alt="result" src="/assets/images/blog/what-is-clp/result.png">
 </div>
 
 To see the second solution, we can change "*new IndomainMin()*" into "*new IndomainMax()*". There is also a way to **display all possible solutions**.
@@ -117,8 +117,8 @@ label.labeling(store, select);
 label.printAllSolutions();
 ```
 <div style="text-align: center;">
-    <img alt="result" src="/images/what-is-clp/result2.png">
+    <img alt="result" src="/assets/images/blog/what-is-clp/result2.png">
 </div>
 
 ## Summary
-In conclusion, I hope that I have explained well what CLP is and I showed it is not so difficult. More advanced examples show its strength and become practically unfeasible for humans. In case of any problems, you can post comments below. In turn, the entire program can be found <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/programs/CLP" target="_blank">here</a>.
+In conclusion, I hope that I have explained well what CLP is and I showed it is not so difficult. More advanced examples show its strength and become practically unfeasible for humans. In case of any problems, you can post comments below. In turn, the entire program can be found <a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/CLP" target="_blank">here</a>.

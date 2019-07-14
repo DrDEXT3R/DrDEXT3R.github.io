@@ -1,8 +1,9 @@
 ---
 title: "About"
 permalink: /about/
+browser_title: About \| IT looks so easy
 header:
-    image: "/images/about.png"
+    image: "/assets/images/about/about.jpg"
 ---
 
 I'm a normal guy with a great dream of doing something useful for society. 
