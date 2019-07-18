@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" # "default" "air", "aqua", "contrast", "da
 # Site Settings
 locale                   : "en-US"
 title                    : ""
-title_separator          : "-"
+title_separator          : " "
 name                     : "Tomasz Strzoda"
 description              : "I just make it look easy."
 url                      : "https://itlookssoeasy.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
