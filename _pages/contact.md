@@ -22,6 +22,6 @@ onload="if(submitted) {window.location='thankyou';}"></iframe>
     <input type="text" name="subject">
     <label>Message</label>
     <textarea rows="5" name="message" required></textarea>
-    <div class="g-recaptcha" data-sitekey="6LcitswUAAAAAGXWE4Hr9lLOV37QXgq7gwQN8kjS"></div>
+    <div class="g-recaptcha" data-sitekey="6LcitswUAAAAAGXWE4Hr9lLOV37QXgq7gwQN8kjS" required></div>
     <button style="margin-top:10px;" type="submit">Send</button>    
 </form>
