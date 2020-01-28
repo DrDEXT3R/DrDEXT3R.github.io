@@ -15,11 +15,26 @@ gallery:
     image_path: /assets/images/portfolio/clp-calculator/gallery3-teaser.jpg
     alt: "Image 3"
 ---
-<br/>
-**GitHub:&nbsp;&nbsp;** <a href="https://github.com/DrDEXT3R/CLP-Calculator" target="_blank">DrDEXT3R/CLP-Calculator</a>  
-**Win x86:** <a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator_win_x86_portable.zip/download" target="_blank">download</a>  
-**Win x64:** <a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator_win_x64_portable.zip/download" target="_blank">download</a>  
-**Linux:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** <a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator_linux.zip/download" target="_blank">download</a>  
+
+## Hyperlinks
+<table>
+  <tr>
+    <th>GitHub</th>
+    <th><a href="https://github.com/DrDEXT3R/CLP-Calculator" target="_blank">DrDEXT3R/CLP-Calculator</a></th>
+  </tr>
+  <tr>
+    <th>Win x86</th>
+    <th><a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator_win_x86_portable.zip/download" target="_blank">download</a></th>
+  </tr>
+  <tr>
+    <th>Win x64</th>
+    <th><a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator_win_x64_portable.zip/download" target="_blank">download</a></th>
+  </tr>
+  <tr>
+    <th>Linux</th>
+    <th><a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator_linux.zip/download" target="_blank">download</a></th>
+  </tr>
+</table>
 
 
 ## Description

@@ -24,9 +24,18 @@ gallery:
     image_path: /assets/images/portfolio/befree/gallery6-teaser.png
     alt: "Image 6"
 ---
-<br/>
-**GitHub:** <a href="https://github.com/DrDEXT3R/BeFree" target="_blank">DrDEXT3R/BeFree</a>  
-**WWW:&nbsp;** <a href="http://befree.itlookssoeasy.com/" target="_blank">befree.itlookssoeasy.com</a> 
+
+## Hyperlinks
+<table>
+  <tr>
+    <th>GitHub</th>
+    <th><a href="https://github.com/DrDEXT3R/BeFree" target="_blank">DrDEXT3R/BeFree</a></th>
+  </tr>
+  <tr>
+    <th>WWW</th>
+    <th><a href="http://befree.itlookssoeasy.com/" target="_blank">befree.itlookssoeasy.com</a></th>
+  </tr>
+</table>
 
 ## Description
 BeFree is a website that will facilitate the work of freelancers. This portal will allow you to easily find an interesting project, with the right level of difficulty and the required technologies. All job announcements will be in one, easily accessible place. Thanks to this, the time needed to find a suitable and satisfactory project for a freelancer will be significantly shortened.
