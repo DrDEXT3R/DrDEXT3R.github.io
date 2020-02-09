@@ -10,10 +10,10 @@ header:
     image: "/assets/images/blog/wrap-jar-and-jre-together/header-image.png"
     teaser: "/assets/images/blog/wrap-jar-and-jre-together/header-image-teaser.png"
     og_image: "/assets/images/blog/wrap-jar-and-jre-together/header-image-teaser.png"
-excerpt: "This tutorial will allow you to pack the result of your recent work with the application (JAR) into one EXE file. Thanks to this, a portable version will be created, ensuring the launch of your program on computers without JDK and JRE installed."
+excerpt: "This tutorial will allow you to pack the result of your recent work with the application (JAR) into one EXE file. Thanks to that, a portable version will be created, ensuring the launch of your program on computers without JDK and JRE installed."
 ---
 
-In the last <a href="/java/creating-custom-runtime-image/" target="_blank">post</a> I showed how to generate a custom runtime image. This tutorial will allow you to **pack** the result of your recent work with the application (JAR) **into one EXE file**. Thanks to this, a **portable version will be created**, ensuring the launch of your program on computers **without JDK and JRE installed**.
+In the last <a href="/java/creating-custom-runtime-image/" target="_blank">post</a> I showed how to generate a custom runtime image. This tutorial will allow you to **pack** the result of your recent work with the application (JAR) **into one EXE file**. Thanks to that, a **portable version will be created**, ensuring the launch of your program on computers **without JDK and JRE installed**.
 
 ## Launch4j
 The tool that will allow you to create an executable application on Windows is called ***Launch4j*** (download <a href="https://sourceforge.net/projects/launch4j/" target="_blank">here</a>). To run this cross-platform executable wrapper you need *Java Runtime Environment 1.6.0 - 1.8.9*, so if the correct version have not installed on computer, you must do it. 

@@ -19,22 +19,20 @@ Java 9 introduced a new feature in programming in this language, which is the ab
 > <div style="text-align: right">blogs.oracle.com/java/modular-development</div>
 
 ## Java Platform Module System
-The main purpose of the Java Platform Module System (JPMS) is to **reduce the size of the application**. Thanks to that, we can run virtual machines on devices with significantly smaller resources, which gives us an **increase in performance**. But how was this achieved? The answer is: from Java 9 you can isolate and compile application modules along with determining the dependencies required and provided by the module. This replaces the need to attach all JARs to each application separately. Instead, **we build Java runtimes that is tailored to the specific application (only required items are included)**.
+The main purpose of the Java Platform Module System (JPMS) is to **reduce the size of the application**. Thanks to that, we can run virtual machines on devices with significantly smaller resources, which gives us an **increase in performance**. But how was this achieved? The answer is: from Java 9 we can isolate and compile application modules along with determining the dependencies required and provided by the module. This replaces the need to attach all JARs to each application separately. Instead, **we build Java runtimes that is tailored to the specific application (only required items are included)**.
 
-It is worth noting that **modules are not a mandatory element of programs** written in newer versions of JDK, but only an additional option. An example of the program on which this tutorial will be based is my *CLP Calculator* (download the <a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator.jar/download" target="_blank">jar file</a>). It's built on JDK 11 and OpenJFX. I remind you that **from version 11 the JavaFX platform for GUI creation is no longer an integral part of JDK and must be downloaded separately**. If you have any problems, check my previous <a href="/java/your-javafx-app-on-jdk-11-&-openjfx/" target="_blank">post</a> in which I show how to run JavaFX application on JDK 11 & OpenJFX. 
+It is worth noting that **modules are not a mandatory element of programs** written in newer versions of JDK, but only an additional option. An example of the program on which this tutorial will be based is my *CLP Calculator* (download <a href="https://sourceforge.net/projects/clp-calculator/files/CLP-Calculator.jar/download" target="_blank">here</a>). It's built on JDK 11 and OpenJFX. I remind you that **from version 11 the JavaFX platform for GUI creation is no longer an integral part of JDK and must be downloaded separately**. The whole process of such configuration was described in the previous <a href="/java/your-javafx-app-on-jdk-11-&-openjfx/" target="_blank">post</a>.
 
-**The tool that will allow us to generate a runtime image is called *"jlink"*** (available from JDK 9). It should be noted that jlink works with modules. What about applications that migrate, e.g. from JDK 8 to JDK 11? Fortunately, all the application code along with all external libraries can be treated as part of the module with no name.
+**The tool that will allow to generate a runtime image is called *"jlink"*** (available from Java 9). It should be noted that jlink works with modules. What about applications that migrate, e.g. from JDK 8 to JDK 11? Fortunately, all the application code along with all external libraries can be treated as part of the module with no name.
 
 ## Custom Runtime Image on Windows x86
 As you can see, both the new JDK versions and OpenJFX are only available for Windows 64-bit. Generated a runtime image will only support this version of systems. So what about the 32-bit ones?
 
 First you need to **look for JDK that will work on these versions of the systems**. Since Java 9, there are no official sources that are compatible with 32-bit architecture. Fortunately, you can find other companies that share this: <a href="https://www.azul.com/downloads/zulu-community/" target="_blank">*Zulu OpenJDK*</a> or <a href="https://bell-sw.com/" target="_blank">*Liberica JDK*</a>.
 
-A similar situation applies to OpenJFX. There are no official sources for such systems. Instead, you can find <a href="https://wiki.openjdk.java.net/display/OpenJFX/Building+OpenJFX" target="_blank">instructions</a> that will allow us to build our own version. **The easiest way is to use versions built by other users**. I used the one provided on the <a href="https://github.com/javafxports/openjdk-jfx/issues/376" target="_blank">GitHub website</a>.  
+A similar situation applies to OpenJFX. There are no official sources for such systems. Instead, you can find <a href="https://wiki.openjdk.java.net/display/OpenJFX/Building+OpenJFX" target="_blank">instructions</a> that will allow to build your own version. **The easiest way is to use the community -** <a href="https://github.com/javafxports/openjdk-jfx/issues/376" target="_blank">**GitHub discussion**</a> (download <a href="https://github.com/DrDEXT3R/Archive/raw/master/OpenJFX_x86/openjfx11_x86.zip" target="_blank">*openjfx11_x86.zip*</a> &rarr; all credit to @<a href="https://github.com/graynk" target="_blank">graynk</a>).  
 
-Link to download: <a href="https://github.com/DrDEXT3R/Archive/raw/master/OpenJFX_x86/openjfx11_x86.zip" target="_blank">*openjfx11_x86.zip*</a> (all credit to @<a href="https://github.com/graynk" target="_blank">graynk</a>).  
-
-**Some unofficial versions of JDK have JavaFX built in<sup>[1]</sup> (e.g. *Zulu 11.33.15* and *Liberica JDK 12.0.2*)**. You can check this by looking for the following jmod files in JDK directory:  
+**Some unofficial versions of JDK have JavaFX built in<sup>[1]</sup> (e.g. *Zulu 11.33.15* and *Liberica 12.0.2*)**. You can check this by looking for the following jmod files in their directory:  
 - *javafx.base.jmod*
 - *javafx.controls.jmod*
 - *javafx.fxml.jmod*
@@ -44,13 +42,13 @@ Link to download: <a href="https://github.com/DrDEXT3R/Archive/raw/master/OpenJF
 - *javafx.web.jmod*
 
 ## Getting Started
-Let's start by running application from Command Prompt. As I mentioned before, **we will need the jar file of final program**. If our application does not use JavaFX platform or uses it, but it was built on JDK up to version 10, all we have to do is open Command Prompt, go to the location on the disk with the jar file of our application and enter the following command:
+Let's start by running application from Command Prompt. As I mentioned before, **you will need the JAR file of final program**. If your application does not use JavaFX platform or uses it, but it was built on JDK up to version 10, all you have to do is open Command Prompt, go to the location on the disk with the JAR file of your application and enter the following command:
 ```java
 java -jar CLP-Calculator.jar
 ```
-<sup>[1]</sup> This command also works on some unofficial versions of JDK 11+.
+It also works on some unofficial versions of JDK 11+ <sup>[1]</sup>.
 
-In my case, the application is built using JDK 11 & OpenJFX. JavaFX is not part of JDK 11, so we have to indicate the location of our GUI creation platform in the command.
+In my case, the application is built using JDK 11 & OpenJFX. JavaFX is not part of JDK 11, so I must indicate the location of my GUI creation platform in the command.
 ```java
 java --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.swing,javafx.fxml -jar CLP-Calculator.jar
 ```
@@ -60,14 +58,14 @@ As an explanation:
 
 <br/>
 Note!
-1. *"javafx.swing"* is required in my case because CLP Calculator uses the class *"SwingNode"* in the code, which together with related *"SwingNodeHelper"* are part of the javafx.swing module. Therefore, to indicate that the class is to be used with a modulelepath and not with classpath, we must include this information in *"add-modules"*.  
+1. *"javafx.swing"* is required in my case because CLP Calculator uses the class *"SwingNode"* in the code, which together with related *"SwingNodeHelper"* are part of the javafx.swing module. Therefore, to indicate that the class is to be used with a modulepath and not with classpath, I must include this information in *"add-modules"*.  
 If your program does not use the *"SwingNode"* class, you can skip this section. Conversely, if your program uses any class that should be used from the appropriate modulepath, add this information here.
-2. A similar command was entered when setting the VM options in IntelliJ IDEA from the previous <a href="/java/your-javafx-app-on-jdk-11-&-openjfx/#ide-settings" target="_blank">post</a>.
+2. A similar command was entered when setting the VM options in IntelliJ IDEA (<a href="/java/your-javafx-app-on-jdk-11-&-openjfx/#ide-settings" target="_blank">here</a>).
 
 ## Jlink Tool  
-To use jlink, we must **first find out which JDK modules the application uses**. For this purpose, we will use another tool called *"jdeps"*, which is also included in JDK.
+First you must **find out which JDK modules the application needs**. For this purpose, you will use another tool called *"jdeps"*.
 
-Open the Command Prompt, go to the place where our jar file is and enter the following command:
+Open the Command Prompt, go to the place where your JAR file is and enter the following command:
 ```java
 jdeps --list-deps CLP-Calculator.jar
 ```
@@ -83,7 +81,7 @@ jdeps --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules 
     <img alt="result" src="/assets/images/blog/creating-custom-runtime-image/jdeps2.png">
 </div>
 
-We can generate a runtime image now. To do this we have to:  
+You can generate a runtime image now. To do this you have to:  
 - put all displayed dependencies after *"add-modules"* (including *javafx.controls, javafx.swing, javafx.fxml*);  
 - copy all jmod files from JavaFX SDK *("Java\javafx-sdk-11.0.2\lib\javafx-jmods-11.0.2")* to JDK directory *("Java\jdk-11.0.2\jmods")*. For <sup>[1]</sup> this is unnecessary.
 
@@ -101,7 +99,7 @@ To optimize the size of the generated JRE, I added a few more flags:
 You can find more options <a href="https://docs.oracle.com/javase/9/tools/jlink.htm#JSWOR-GUID-CECAC52B-CFEE-46CB-8166-F17A8E9280E9" target="_blank">here</a>.
 
 ## Run Your App
-**Custom runtime image was generated in the same folder as the jar file**. Let's move this *CLP-Calculator.jar* to *"jre\bin"* and try to run our application.
+**Custom runtime image was generated in the same folder as the JAR file**. Let's move this *CLP-Calculator.jar* to *"jre\bin"* and try to run application.
 ```java
 java -jar CLP-Calculator.jar
 ```
@@ -109,6 +107,6 @@ java -jar CLP-Calculator.jar
     <img alt="result" src="/assets/images/blog/creating-custom-runtime-image/app.png">
 </div>
 
-**The entire *"jre"* folder can be moved to another computer with the right system architecture** (any 32-bit program runs on 64-bit) **and JDK installed** (Java Runtime Environment is not needed). In the next post I will show you how to make an **.exe** from our application, which you won't need even JDK to run.
+**The entire *"jre"* folder can be moved to another computer with the right system architecture** (any 32-bit program runs on 64-bit) **and JDK installed** (Java Runtime Environment is not needed). In the next <a href="/java/wrap-jar-and-jre-together/" target="_blank">post</a> I will show you how to make an **EXE** from application, which you will not need even JDK to run.
 
 
