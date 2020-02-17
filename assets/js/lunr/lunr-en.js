@@ -73,3 +73,9 @@ $(document).ready(function() {
     }
   });
 });
+
+// Enable submit button on contact page if recaptcha is checked
+function recaptchaCallback() {
+  $('#submitBtn').removeAttr('disabled');
+};
+
