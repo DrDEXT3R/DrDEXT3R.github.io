@@ -60,7 +60,7 @@ As an explanation:
 Note!
 1. *"javafx.swing"* is required in my case because CLP Calculator uses the class *"SwingNode"* in the code, which together with related *"SwingNodeHelper"* are part of the javafx.swing module. Therefore, to indicate that the class is to be used with a modulepath and not with classpath, I must include this information in *"add-modules"*.  
 If your program does not use the *"SwingNode"* class, you can skip this section. Conversely, if your program uses any class that should be used from the appropriate modulepath, add this information here.
-2. A similar command was entered when setting the VM options in IntelliJ IDEA (<a href="/java/your-javafx-app-on-jdk-11-&-openjfx/#ide-settings" target="_blank">here</a>).
+2. A similar command was entered when setting the VM options in IntelliJ IDEA (<a href="/java/your-javafx-app-on-jdk-11-and-openjfx/#ide-settings" target="_blank">here</a>).
 
 ## Jlink Tool  
 First you must **find out which JDK modules the application needs**. For this purpose, you will use another tool called *"jdeps"*.
