@@ -1,5 +1,6 @@
 ---
 title: "CLP Calculator"
+date: 2019-05-16
 excerpt: "It is a simple calculator for solving problems using Constraint Logic Programming. Thanks to it, we can quickly see solution of combinatory/scheduling/optimization problems."
 header:
   image: /assets/images/portfolio/clp-calculator/clp-calculator.jpg

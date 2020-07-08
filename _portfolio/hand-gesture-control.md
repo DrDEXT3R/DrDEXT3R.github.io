@@ -1,5 +1,6 @@
 ---
 title: "Hand Gesture Control"
+date: 2020-01-26
 excerpt: "It is a program that recognizes hand gestures shown to the webcam. Each frame is subjected to the process of creating a hand mask, which is then given as the input of a learned neural network."
 header:
   image: /assets/images/portfolio/hand-gesture-control/hand-gesture-control.jpg

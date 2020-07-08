@@ -1,5 +1,6 @@
 ---
 title: "BeFree - Portal for Freelancers"
+date: 2019-03-17
 excerpt: "BeFree is a website that will facilitate the work of freelancers. This portal will allow you to easily find an interesting project, with the right level of difficulty and the required technologies."
 header:
   image: /assets/images/portfolio/befree/befree.png

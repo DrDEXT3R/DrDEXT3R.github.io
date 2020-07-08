@@ -1,5 +1,6 @@
 ---
 title: "Eye Tracker"
+date: 2020-01-25
 excerpt: "It is a program for tracking and marking irises on webcam images. Due to the possibility of adjusting the threshold value, the application works correctly in different lighting conditions."
 header:
   image: /assets/images/portfolio/eye-tracker/eye-tracker.jpg
