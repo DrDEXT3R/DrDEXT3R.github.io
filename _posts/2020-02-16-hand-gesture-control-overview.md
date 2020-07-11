@@ -6,6 +6,7 @@ categories:
 tags:
     - Hand Gesture Control
     - Machine Learning
+    - Computer Vision
 header:
     image: "/assets/images/blog/hand-gesture-control-overview/header-image.png"
     teaser: "/assets/images/blog/hand-gesture-control-overview/header-image-teaser.png"
@@ -17,6 +18,10 @@ excerpt: "Nowadays, technological progress boils down to making life easier for 
   <tr>
     <th>GitHub</th>
     <th><a href="https://github.com/DrDEXT3R/HandGestureControl" target="_blank">DrDEXT3R/HandGestureControl</a></th>
+  </tr>
+  <tr>
+    <th>Part 2</th>
+    <th><a href="/python/create-dataset" target="_blank">Create Dataset</a></th>
   </tr>
 </table>
 
@@ -36,7 +41,7 @@ The goal is to create a program that will be able to **recognize hand gestures o
 
 ## Division of Labor
 The work will be divided into 3 stages:
-* Creating your own dataset.  
+* Creating a dataset.  
 This part will consist of writing a program to capture the image frame from the webcam at the right time, transform into a specific form and give it the appropriate class - a kind of hand gesture.
 * Creating a neural network.  
 This stage will be based on modeling and learning a neural network, consisting of convolutional layers, which will be able to recognize the kind of hand gesture.  

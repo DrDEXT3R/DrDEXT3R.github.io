@@ -13,6 +13,26 @@ excerpt: "Each of us knows that Albert Einstein was a great genius. His person h
 mathjax: "true"
 ---
 
+<table>
+  <tr>
+    <th>Code</th>
+    <th><a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/Einstein" target="_blank">GitHub</a></th>
+  </tr>
+  <tr>
+    <th>Part 1</th>
+    <th><a href="/java/what-is-clp" target="_blank">What is CLP?</a></th>
+  </tr>
+  <tr>
+    <th>Part 3</th>
+    <th><a href="/java/scheduling-problem" target="_blank">Scheduling Problem</a></th>
+  </tr>
+  <tr>
+    <th>Part 4</th>
+    <th><a href="/java/optimization-problem" target="_blank">Optimization Problem</a></th>
+  </tr>
+</table>
+
+## Introduction
 Each of us knows that Albert Einstein was a great genius. His person had a huge impact on the development of physics, but have you ever heard of his riddle? If not then, I will explain it to you now.
 
 ## Try to Solve It

@@ -13,6 +13,14 @@ header:
 excerpt: "This tutorial will allow you to pack the result of your recent work with the application (JAR) into one EXE file. Thanks to that, a portable version will be created, ensuring the launch of your program on computers without JDK and JRE installed."
 ---
 
+<table>
+  <tr>
+    <th>Part 1</th>
+    <th><a href="/java/creating-custom-runtime-image" target="_blank">Creating Custom Runtime Image</a></th>
+  </tr>
+</table>
+
+## Introduction
 In the last <a href="/java/creating-custom-runtime-image/" target="_blank">post</a> I showed how to generate a custom runtime image. This tutorial will allow you to **pack** the result of your recent work with the application (JAR) **into one EXE file**. Thanks to that, a **portable version will be created**, ensuring the launch of your program on computers **without JDK and JRE installed**.
 
 ## Launch4j

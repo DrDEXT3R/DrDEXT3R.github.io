@@ -12,6 +12,26 @@ header:
 excerpt: "Optimization plays a very important role in our lives. I think none of us likes to waste time unnecessarily. That's why we think so often how to sort tasks and activities during the day. And if so, try to use CLP?"
 ---
 
+<table>
+  <tr>
+    <th>Code</th>
+    <th><a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/Museum" target="_blank">GitHub</a></th>
+  </tr>
+  <tr>
+    <th>Part 1</th>
+    <th><a href="/java/what-is-clp" target="_blank">What is CLP?</a></th>
+  </tr>
+  <tr>
+    <th>Part 2</th>
+    <th><a href="/java/einstein-riddle" target="_blank">Einstein’s Riddle</a></th>
+  </tr>
+  <tr>
+    <th>Part 3</th>
+    <th><a href="/java/scheduling-problem" target="_blank">Scheduling Problem</a></th>
+  </tr>
+</table>
+
+## Introduction
 Optimization plays a very important role in our lives. I think none of us likes to waste time unnecessarily. That's why we think so often how to sort tasks and activities during the day. And if so, try to use <a href="/java/what-is-clp/" target="_blank">CLP</a>? Since we used it for the <a href="/java/scheduling-problem/" target="_blank">scheduling problem</a> or solving the <a href="/java/einstein-riddle/" target="_blank">Einstein's Riddle</a>, we will deal with optimization now.
 
 ## The Task

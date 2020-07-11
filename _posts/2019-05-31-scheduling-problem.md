@@ -13,6 +13,26 @@ excerpt: "Many times we face the problem of scheduling throughout our lives. Som
 mathjax: "true"
 ---
 
+<table>
+  <tr>
+    <th>Code</th>
+    <th><a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/Museum" target="_blank">GitHub</a></th>
+  </tr>
+  <tr>
+    <th>Part 1</th>
+    <th><a href="/java/what-is-clp" target="_blank">What is CLP?</a></th>
+  </tr>
+  <tr>
+    <th>Part 2</th>
+    <th><a href="/java/einstein-riddle" target="_blank">Einstein’s Riddle</a></th>
+  </tr>
+  <tr>
+    <th>Part 4</th>
+    <th><a href="/java/optimization-problem" target="_blank">Optimization Problem</a></th>
+  </tr>
+</table>
+
+## Introduction
 Many times we face the problem of scheduling throughout our lives. Sometimes it is quite troublesome and cumbersome. In such situations, you can use <a href="/java/what-is-clp/" target="_blank">CLP</a>, which in this case, significantly shortens the time of finding the final solution and saves many unnecessary nerves. In order to show how to solve these types of problems, let's present the specific content of the task.
 
 ## The Task

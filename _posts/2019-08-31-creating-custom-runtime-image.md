@@ -13,6 +13,14 @@ header:
 excerpt: "Java 9 introduced a new feature in programming in this language, which is the ability to create modules. By module, we mean a set of packages together with a file describing its content (descriptor). The main purpose of the Java Platform Module System (JPMS) is to reduce the size of the application."
 ---
 
+<table>
+  <tr>
+    <th>Part 2</th>
+    <th><a href="/java/wrap-jar-and-jre-together" target="_blank">Wrap JAR and JRE Together</a></th>
+  </tr>
+</table>
+
+## Introduction
 Java 9 introduced a new feature in programming in this language, which is the ability to create modules. **By module, we mean a set of packages together with a file describing its content (descriptor)**.
 
 > <div style="text-align: justify">A module is essentially a set of packages that make sense being grouped together and is designed for reuse.</div>

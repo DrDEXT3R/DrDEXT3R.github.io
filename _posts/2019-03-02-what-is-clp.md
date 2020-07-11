@@ -13,6 +13,25 @@ excerpt: "CLP (Constraint Logic Programming) is a form of constraint programming
 mathjax: "true"
 ---
 
+<table>
+  <tr>
+    <th>Code</th>
+    <th><a href="https://github.com/DrDEXT3R/DrDEXT3R.github.io/tree/master/assets/programs/CLP" target="_blank">GitHub</a></th>
+  </tr>
+  <tr>
+    <th>Part 2</th>
+    <th><a href="/java/einstein-riddle" target="_blank">Einstein’s Riddle</a></th>
+  </tr>
+  <tr>
+    <th>Part 3</th>
+    <th><a href="/java/scheduling-problem" target="_blank">Scheduling Problem</a></th>
+  </tr>
+  <tr>
+    <th>Part 4</th>
+    <th><a href="/java/optimization-problem" target="_blank">Optimization Problem</a></th>
+  </tr>
+</table>
+
 ## Introduction
 Let's start with explaining the abbreviation mentioned above. **CLP (*Constraint Logic Programming*)** is a form of constraint programming, which is a kind of a declarative approach. The main goal of CLP is to **find solutions that will satisfy (all) imposed constraints**.
 
