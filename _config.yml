@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Tomasz Strzoda"
-  avatar           : "/assets/images/avatar.gif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I just make it look easy."
   location         : "Silesia, PL"
   email            :
