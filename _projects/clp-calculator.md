@@ -3,17 +3,17 @@ title: "CLP Calculator"
 date: 2019-05-16
 excerpt: "It is a simple calculator for solving problems using Constraint Logic Programming. Thanks to it, we can quickly see solution of combinatory/scheduling/optimization problems."
 header:
-  image: /assets/images/portfolio/clp-calculator/clp-calculator.jpg
-  teaser: /assets/images/portfolio/clp-calculator/clp-calculator-teaser.jpg
+  image: /assets/images/projects/clp-calculator/clp-calculator.jpg
+  teaser: /assets/images/projects/clp-calculator/clp-calculator-teaser.jpg
 gallery:
-  - url: /assets/images/portfolio/clp-calculator/gallery1.jpg
-    image_path: /assets/images/portfolio/clp-calculator/gallery1-teaser.jpg
+  - url: /assets/images/projects/clp-calculator/gallery1.jpg
+    image_path: /assets/images/projects/clp-calculator/gallery1-teaser.jpg
     alt: "Image 1"
-  - url: /assets/images/portfolio/clp-calculator/gallery2.jpg
-    image_path: /assets/images/portfolio/clp-calculator/gallery2-teaser.jpg
+  - url: /assets/images/projects/clp-calculator/gallery2.jpg
+    image_path: /assets/images/projects/clp-calculator/gallery2-teaser.jpg
     alt: "Image 2"
-  - url: /assets/images/portfolio/clp-calculator/gallery3.jpg
-    image_path: /assets/images/portfolio/clp-calculator/gallery3-teaser.jpg
+  - url: /assets/images/projects/clp-calculator/gallery3.jpg
+    image_path: /assets/images/projects/clp-calculator/gallery3-teaser.jpg
     alt: "Image 3"
 ---
 

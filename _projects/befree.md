@@ -3,26 +3,26 @@ title: "BeFree - Portal for Freelancers"
 date: 2019-03-17
 excerpt: "BeFree is a website that will facilitate the work of freelancers. This portal will allow you to easily find an interesting project, with the right level of difficulty and the required technologies."
 header:
-  image: /assets/images/portfolio/befree/befree.png
-  teaser: /assets/images/portfolio/befree/befree-teaser.png
+  image: /assets/images/projects/befree/befree.png
+  teaser: /assets/images/projects/befree/befree-teaser.png
 gallery:
-  - url: /assets/images/portfolio/befree/gallery1.png
-    image_path: /assets/images/portfolio/befree/gallery1-teaser.png
+  - url: /assets/images/projects/befree/gallery1.png
+    image_path: /assets/images/projects/befree/gallery1-teaser.png
     alt: "Image 1"
-  - url: /assets/images/portfolio/befree/gallery2.png
-    image_path: /assets/images/portfolio/befree/gallery2-teaser.png
+  - url: /assets/images/projects/befree/gallery2.png
+    image_path: /assets/images/projects/befree/gallery2-teaser.png
     alt: "Image 2"
-  - url: /assets/images/portfolio/befree/gallery3.png
-    image_path: /assets/images/portfolio/befree/gallery3-teaser.png
+  - url: /assets/images/projects/befree/gallery3.png
+    image_path: /assets/images/projects/befree/gallery3-teaser.png
     alt: "Image 3"
-  - url: /assets/images/portfolio/befree/gallery4.png
-    image_path: /assets/images/portfolio/befree/gallery4-teaser.png
+  - url: /assets/images/projects/befree/gallery4.png
+    image_path: /assets/images/projects/befree/gallery4-teaser.png
     alt: "Image 4"
-  - url: /assets/images/portfolio/befree/gallery5.png
-    image_path: /assets/images/portfolio/befree/gallery5-teaser.png
+  - url: /assets/images/projects/befree/gallery5.png
+    image_path: /assets/images/projects/befree/gallery5-teaser.png
     alt: "Image 5"
-  - url: /assets/images/portfolio/befree/gallery6.png
-    image_path: /assets/images/portfolio/befree/gallery6-teaser.png
+  - url: /assets/images/projects/befree/gallery6.png
+    image_path: /assets/images/projects/befree/gallery6-teaser.png
     alt: "Image 6"
 ---
 

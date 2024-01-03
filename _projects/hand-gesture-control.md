@@ -3,17 +3,17 @@ title: "Hand Gesture Control"
 date: 2020-01-26
 excerpt: "It is a program that recognizes hand gestures shown to the webcam. Each frame is subjected to the process of creating a hand mask, which is then given as the input of a learned neural network."
 header:
-  image: /assets/images/portfolio/hand-gesture-control/hand-gesture-control.jpg
-  teaser: /assets/images/portfolio/hand-gesture-control/hand-gesture-control-teaser.jpg
+  image: /assets/images/projects/hand-gesture-control/hand-gesture-control.jpg
+  teaser: /assets/images/projects/hand-gesture-control/hand-gesture-control-teaser.jpg
 gallery:
-  - url: /assets/images/portfolio/hand-gesture-control/demo1.gif
-    image_path: /assets/images/portfolio/hand-gesture-control/demo1.gif
+  - url: /assets/images/projects/hand-gesture-control/demo1.gif
+    image_path: /assets/images/projects/hand-gesture-control/demo1.gif
     alt: "Demo 1"
-  - url: /assets/images/portfolio/hand-gesture-control/demo2.gif
-    image_path: /assets/images/portfolio/hand-gesture-control/demo2.gif
+  - url: /assets/images/projects/hand-gesture-control/demo2.gif
+    image_path: /assets/images/projects/hand-gesture-control/demo2.gif
     alt: "Demo 2"
-  - url: /assets/images/portfolio/hand-gesture-control/masks.png
-    image_path: /assets/images/portfolio/hand-gesture-control/masks.png
+  - url: /assets/images/projects/hand-gesture-control/masks.png
+    image_path: /assets/images/projects/hand-gesture-control/masks.png
     alt: "Masks"
 ---
 
