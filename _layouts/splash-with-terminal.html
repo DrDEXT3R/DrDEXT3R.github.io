@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+
+  <div class="terminal-wrapper">
+    <div id="particles-js"></div>
+    <div class="terminal shadow">
+      <div class="top">
+        <div class="btns">
+          <span class="circle red"></span>
+          <span class="circle yellow"></span>
+          <span class="circle green"></span>
+        </div>
+        <div class="title">bash -- 70x8</div>
+      </div>
+      <div id="terminal-body" class="terminal-body">
+      </div>
+    </div>
+  </div>
+
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}
+    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{%
+    endif %}
+    {% if page.excerpt %}
+    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+    <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}
+    <meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="{{ base.url | prepend: site.url }}/assets/js/particles.js"></script>
+  <script src="{{ base.url | prepend: site.url }}/assets/js/terminal.js"></script>
+
+</div>
