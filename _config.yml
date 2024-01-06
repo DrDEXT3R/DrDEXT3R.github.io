@@ -108,21 +108,27 @@ analytics:
 author:
   name             : "Tomasz Strzoda"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I just make it look easy."
+  bio              : "‣ T-shaped person<br>‣ PhD student<br>‣ AI enthusiast"
   location         : "Silesia, PL"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    - label: "University (SUT)"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.polsl.pl/rau4/en/employees/tomasz-strzoda/"
+    - label: "Academic achievement"
+      icon: "fas fa-fw fa-book"
+      url: "https://omega.polsl.pl/info/author/PSL08045e46707d4a4ebf7180811c591664/Profil+osoby+%25E2%2580%2593+Tomasz+Strzoda+%25E2%2580%2593+Politechnika+%25C5%259Al%25C4%2585ska?r=publication&ps=20&tab=publications&lang=en&pn=1&cid=97233"
+    # - label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    # - label: "Website"
+      # icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    # - label: "Twitter"
+      # icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    # - label: "Facebook"
+      # icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -130,10 +136,13 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DrDEXT3R"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0003-1360-3663"
+    
 # Site Footer
 footer:
   links:
