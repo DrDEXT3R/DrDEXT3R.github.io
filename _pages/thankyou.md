@@ -1,7 +1,7 @@
 ---
 title: "Thank You!"
 permalink: /contact/thankyou/
-browser_title: Thank You \| IT looks so easy
+browser_title: Thank You \| Tomasz Strzoda
 header:
     image: "/assets/images/contact/contact.jpg"
 ---

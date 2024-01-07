@@ -2,7 +2,7 @@
 layout: categories
 title: "Posts by Technologies"
 permalink: /categories/
-browser_title: Technologies \| IT looks so easy
+browser_title: Technologies \| Tomasz Strzoda
 description: "Posts listed by Technology"
 author_profile: false
 comments: false

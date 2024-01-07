@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-browser_title: About \| IT looks so easy
+browser_title: About \| Tomasz Strzoda
 header:
     image: "/assets/images/about/about.jpg"
 ---

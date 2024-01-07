@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 permalink: /contact/
-browser_title: Contact \| IT looks so easy
+browser_title: Contact \| Tomasz Strzoda
 header:
     image: "/assets/images/contact/contact.jpg"
 ---

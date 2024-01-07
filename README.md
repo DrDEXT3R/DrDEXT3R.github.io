@@ -1,5 +1,4 @@
-# IT looks so easy
-My personal blog is a place where I will be able to describe in more detail the programs that I create.
+# Personal Website
 
 ## Getting Started
 The current version of the website can be seen here: https://itlookssoeasy.com/
