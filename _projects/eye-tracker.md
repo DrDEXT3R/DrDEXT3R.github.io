@@ -30,7 +30,7 @@ Eye Tracker is a program for tracking and marking irises on webcam images. Due t
 </div>
 
 ## Built With
-* <a href="https://docs.python.org/3/" target="_blank">Python 3</a> - The programming language
+* <a href="https://docs.python.org/3/" target="_blank">Python 3</a> - A programming language
 * <a href="https://docs.opencv.org/4.1.1/d6/d00/tutorial_py_root.html" target="_blank">OpenCV</a> - Computer vision and machine learning software library
 * <a href="https://numpy.org/doc/1.17/" target="_blank">NumPy</a> - The package for scientific computing with Python
 

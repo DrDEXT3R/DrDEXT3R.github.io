@@ -33,7 +33,7 @@ It is a program that recognizes hand gestures shown to the webcam. Each frame is
 </div>
 
 ## Built With
-* <a href="https://docs.python.org/3/" target="_blank">Python 3</a> - The programming language
+* <a href="https://docs.python.org/3/" target="_blank">Python 3</a> - A programming language
 * <a href="https://www.tensorflow.org/api_docs/python/" target="_blank">TensorFlow</a> - A end-to-end open source platform for machine learning 
 * <a href="https://keras.io/documentation/" target="_blank">Keras</a> - A high-level neural networks API written in Python
 * <a href="https://docs.opencv.org/4.1.1/d6/d00/tutorial_py_root.html" target="_blank">OpenCV</a> - Computer vision and machine learning software library
