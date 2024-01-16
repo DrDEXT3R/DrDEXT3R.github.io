@@ -1,7 +1,7 @@
 # Personal Website
 
 ## Getting Started
-The current version of the website can be seen here: https://itlookssoeasy.com/
+The current version of the website can be seen here: https://tomaszstrzoda.com/
 
 ## Built With
 * [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) - The Jekyll theme used
