@@ -8,21 +8,19 @@ header:
 
 If you want to send me feedback or just contact me, you can do it here.
 
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
-onload="if(submitted) {window.location='thankyou';}"></iframe>
+<form action="https://formsubmit.co/el/huzepo" method="POST">
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_next" value="https://tomaszstrzoda.com/contact/thankyou/">
+    <input type="hidden" name="_subject" value="New submission!">
 
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<form action="https://formsubmit.co/el/huzepo" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-    <label>Name</label>
-    <input type="text" name="name" required>
-    <label>Email Address</label>
-    <input type="email" name="email" required>
-    <label>Subject</label>
-    <input type="text" name="subject">
-    <label>Message</label>
-    <textarea rows="5" name="message" required></textarea>
-    <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Lebf1opAAAAAK8ZNIncvZWqjcaGVELl-LE7tYvD" required></div>
-    <button id="submitBtn" style="margin-top:10px;" type="submit" disabled>Send</button>    
+    <label for="fullname">Name</label>
+    <input type="text" id="fullname" name="name" required>
+    <label for="emailAddress">Email Address</label>
+    <input type="email" id="emailAddress" name="email" required>
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject">
+    <label for="message">Message</label>
+    <textarea rows="5" id="message" name="message" required></textarea>
+    
+    <button type="submit">Send</button>
 </form>
-
