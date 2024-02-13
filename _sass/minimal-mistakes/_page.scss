@@ -264,6 +264,16 @@ body {
   }
 }
 
+.entries-list .list__item { 
+  .archive__item {
+    margin-bottom: 2.5em;
+  }
+
+  .archive__item-title {
+    margin-top: 0.25em;
+  }
+}
+
 /*
    Social sharing
    ========================================================================== */
