@@ -32,10 +32,6 @@ gallery:
     <th>GitHub</th>
     <th><a href="https://github.com/DrDEXT3R/BeFree" target="_blank">DrDEXT3R/BeFree</a></th>
   </tr>
-  <tr>
-    <th>WWW</th>
-    <th><a href="http://befree.itlookssoeasy.com/" target="_blank">befree.itlookssoeasy.com</a></th>
-  </tr>
 </table>
 
 ## Description
