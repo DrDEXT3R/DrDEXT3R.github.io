@@ -141,13 +141,13 @@ The constraint takes four parameters:
 
 $$\forall t \in [\min_{1 \leq i \leq n}(T_{i}), \max_{1 \leq i \leq n}(T_{i}+D_{i})]: \sum_{k: T_{k} \leq t \leq T_{k}+D_{k}} R_{k} \leq Limit$$
 
-<span style="text-decoration:underline">Simple example:</span>  
+**Simple example:**  
 We have 3 tasks on 2 processors. Each task requires one of them.
 <div style="text-align: center;">
     <img alt="result" src="/assets/images/blog/scheduling-problem/cumulativeExample.png">
 </div>
   
-<span style="text-decoration:underline">Exemplary solution:</span>  
+**Exemplary solution:**  
 <div style="text-align: center;">
     <img alt="result" src="/assets/images/blog/scheduling-problem/chart.png">
 </div>

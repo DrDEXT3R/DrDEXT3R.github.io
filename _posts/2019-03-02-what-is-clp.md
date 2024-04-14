@@ -53,7 +53,7 @@ How can we describe **constraint** in the simplest way? It's a **conglomeration 
 
 $$ e.g. $$ &emsp; $$ A < 2 $$ &emsp;&emsp; $$ 3A + 2B = 10 $$
 
-<span style="text-decoration:underline">Note!</span> The order of applying further constraints can change the solution. This is due to the algorithms used. <br/>
+**Note!** The order of applying further constraints can change the solution. This is due to the algorithms used. <br/>
 
 ## Simple Example 
 
